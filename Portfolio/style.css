@@ -1,0 +1,64 @@
+body{
+    background: #fff;
+    font-family: 'sans-serif';
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 81.25rem;
+    margin: auto;
+
+}
+
+header{
+    height: 100vh;
+    background: url(imagenes/fondo.jpg) left no-repeat; 
+    background-size: cover;
+}
+
+#contenedor-menu{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-family:  sans-serif;
+} 
+
+header.logo{
+    color:#fff;
+    font-size: 1.25rem;  
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    margin-top: 19px;
+}
+
+nav ul li{
+    margin-right: 25px;
+    list-style: none;
+    color: #fff;
+}
+
+.contenedor-titulo{
+    display: flex;
+    justify-content: center;
+    margin:30vh 0; 
+}
+
+h1{
+    font-family: 'sans-serif';
+}
+
+h2{
+    font-family: 'Open Sans', sans-serif;
+}
+
+h3{
+    font-family: 'Open Sans', sans-serif;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+}
